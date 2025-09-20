@@ -1,0 +1,12 @@
+d1={'name':'rishik','grade':5,'pass':True}
+print(d1)
+print(d1.keys())
+print(d1.values())
+print(d1.items())
+
+d1["name"]="Rishik pathak"
+d1["roll no."]=33
+
+
+d1.pop("pass")
+print(d1)
