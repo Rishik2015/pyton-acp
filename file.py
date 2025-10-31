@@ -12,6 +12,9 @@
 
 # file.close()
 
-file=open("demo.txt")
-print(file.read(10))
-file.close()
+# file=open("demo.txt")
+# print(file.read(10))
+# file.close()
+
+with open ("demo.txt","r") as file :
+    data = file.readlines("my name is rishik");
