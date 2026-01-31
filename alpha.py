@@ -1,6 +1,6 @@
 str="rishik"
 
-if isalpha():
+if .isalpha():
     print("it is capital")
 else:
     print("it is not capital")    
