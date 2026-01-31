@@ -6,5 +6,5 @@ class square:
     def area(self) :
         print("Area of square=",self.length+self.width*2) 
 
-r1=square(10,2)
-r1.area()
+ri1=square(10,2)
+ri1.area()
