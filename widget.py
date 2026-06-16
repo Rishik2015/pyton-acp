@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 def calculate_product():
     try:
-        num1 = float(entry1.get())
+        num1 = float(entry1.get())    
         num2 = float(entry2.get())
         product = num1 * num2
         label_result.config(text=f"Product: {product}")
